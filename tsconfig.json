@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // Project structure
+    "rootDir": "./src",
+    "outDir": "./dist",
+    // JavaScript target and module system
+    "target": "ES6",
+    "module": "ESNext",
+    // Strict type checking
+    "strict": true,
+    // Disable extra generated files
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": false,
+    // Module behavior
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
