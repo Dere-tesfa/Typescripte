@@ -2,3 +2,4 @@
 // numbers[0];
 // console.log(numbers);
 let values: string[] = ['apple', 'banana'];
+console.log(values);

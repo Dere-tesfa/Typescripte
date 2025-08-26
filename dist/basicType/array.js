@@ -3,3 +3,4 @@
 // numbers[0];
 // console.log(numbers);
 let values = ['apple', 'banana'];
+console.log(values);
