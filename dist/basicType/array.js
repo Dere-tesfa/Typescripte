@@ -4,3 +4,4 @@
 // console.log(numbers);
 let values = ['apple', 'banana'];
 console.log(values);
+//let value:number[]=[1,2]

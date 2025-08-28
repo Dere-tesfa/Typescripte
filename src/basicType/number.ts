@@ -1,6 +1,10 @@
+let pi: number = 3.14;//base 100 decimal
+let hexadecimal: number = 0xff;//255 in decimal
+console.log(hexadecimal);
+
+let binary: number = 0b10;//2 in decimal
 
 
-let sales: number = 123_332;
-let course: string = 'dereje';
-let isTrue: boolean = true;
-console.log(sales);
+console.log(binary);
+
+
