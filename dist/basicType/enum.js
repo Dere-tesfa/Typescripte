@@ -5,12 +5,30 @@
 // enum Size { Small = 1, Medium, Large };
 // let mySize: Size = Size.Medium;
 // console.log(mySize);
-var Size;
-(function (Size) {
-    Size[Size["Small"] = 1] = "Small";
-    Size[Size["Medium"] = 2] = "Medium";
-    Size[Size["Large"] = 3] = "Large";
-})(Size || (Size = {}));
+// enum Size { Small = 1, Medium, Large };
+// let mySize: Size = Size.Large;
+// console.log(mySize);
+var myfavoritedrink;
+(function (myfavoritedrink) {
+    myfavoritedrink[myfavoritedrink["water"] = 0] = "water";
+    myfavoritedrink[myfavoritedrink["milk"] = 1] = "milk";
+})(myfavoritedrink || (myfavoritedrink = {}));
 ;
-let mySize = Size.Large;
-console.log(mySize);
+console.log(myfavoritedrink.milk);
+var Day;
+(function (Day) {
+    Day[Day["monday"] = 0] = "monday";
+    Day[Day["tusday"] = 1] = "tusday";
+    Day[Day["wensday"] = 2] = "wensday";
+    Day[Day["thursday"] = 3] = "thursday";
+    Day[Day["friday"] = 4] = "friday";
+})(Day || (Day = {}));
+;
+console.log(Day.friday);
+var typeimge;
+(function (typeimge) {
+    typeimge[typeimge["jpg"] = 0] = "jpg";
+    typeimge[typeimge["png"] = 1] = "png";
+})(typeimge || (typeimge = {}));
+;
+console.log(typeimge.png);

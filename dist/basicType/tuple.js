@@ -3,3 +3,9 @@
 // user.push(1);
 let note = [3, 'c++'];
 note.push(1);
+let notes = ['dds', 3];
+console.log(notes[0]);
+let day;
+day = [0, "monday"];
+console.log(day[0]);
+console.log(day[1]);
