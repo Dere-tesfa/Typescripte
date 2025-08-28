@@ -12,3 +12,9 @@ let employees: Employee = {
     name: 'dere'
 }
 console.log(employees);
+
+type courses = {
+    courseId: number,
+    courseName: "Se",
+
+}
